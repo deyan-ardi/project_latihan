@@ -1,0 +1,108 @@
+/* MY CSS */
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: auto;
+    height: 50px;
+    background: #444;
+    padding-right: 50px;
+}
+
+.navbar ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a, .navbar li a:link {
+    float: left;
+    padding: 17px 12px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-size: 14px;
+}
+
+.navbar li a:hover {
+    background: lightskyblue;
+    color: #444;
+}
+
+.navbar li li a, .navbar li li a:link {
+    text-decoration: none;
+    font-size: 16px;
+    background: #444;
+    color: #fff;
+    width: 108px;
+    padding: 0px 0px 0 12px;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+.navbar li li a:hover {
+    background: #ddd;
+    color: #444
+}
+
+.navbar li ul {
+    z-index: 9999;
+    position: absolute;
+    left: -999em;
+    height: auto;
+    width: 120px;
+    margin-top: 50px;
+    border: 1px solid #666;
+}
+
+.navbar li:hover ul, .navbar li li:hover ul, .navbar li li li:hover ul {
+    left: auto;
+}
+
+.navbar li:hover {
+    position: auto;
+}
+
+.konten {
+    background-color: white;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+}
+
+.konten h1 {
+    font-size: x-large;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: darkturquoise;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: darkcyan;
+}
+
+p, .info-web {
+    color: #666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
