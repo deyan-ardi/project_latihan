@@ -106,3 +106,95 @@ p, .info-web {
     color: #666;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* Dari Untuk Table */
+
+table {
+    margin-top: 30px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+table tbody tr {
+    text-align: justify;
+}
+
+table tbody tr .no {
+    text-align: center;
+}
+
+table thead tr {
+    background-color: lightskyblue;
+}
+
+table tbody tr .hapus {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+table tbody tr .hapus:hover {
+    background-color: darkred;
+}
+
+table tbody tr .tombol {
+    text-align: center;
+}
+
+table tbody tr .ubah {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkturquoise;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    text-decoration: none;
+    color: #fff;
+}
+
+table tbody tr .ubah:hover {
+    background-color: darkcyan;
+}
+
+.tambah {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    text-decoration: none;
+    color: #fff;
+}
+
+.tambah:hover {
+    background-color: darkgreen;
+}
+
+.reset {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+    text-decoration: none;
+    color: #fff;
+}
+
+.reset:hover {
+    background-color: darkred;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group #nama {
+    margin-top: 10px;
+    width: 250px;
+}
+
+.form-group #asal {
+    margin-top: 10px;
+}

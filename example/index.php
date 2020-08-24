@@ -20,22 +20,25 @@
             </ul>
         </div>
     </nav>
-    <main>
-        <div class="konten">
-            <h1>Selamat Datang di Sistem Informasi Penjualan</h1>
-            <hr class="line">
-            <p>Sistem Informasi ini merupakan Sistem Informasi yang dikembangkan oleh Deyan Ardi menggunakan HTML+CSS+PHP. Berikut informasi fitur Website :</p>
-            <ul class="info-web">
-                <li>Website ini dibuat khusus untuk pembelajaran dengan Vina Velina</li>
-                <li>Website ini akan berfokus pada Manajemen Peminjaman Toko, mulai dari Data Barang, Data Pegawai, dan Data Penjualan</li>
-                <li>Pada tahap satu akan berfokus pada Sistem Manajemen Pegawai</li>
-                <li>Tahap berikutnya adalah pada Sistem Manajemen Barang</li>
-                <li>Tahap terakhir adalah Sistem Manajemen Penjualan</li>
-            </ul>
+    <main class="konten">
+        <h1>Selamat Datang di Sistem Informasi Penjualan</h1>
+        <hr class="line">
+        <p>Sistem Informasi ini merupakan Sistem Informasi yang
+            dikembangkan oleh Deyan Ardi menggunakan HTML+CSS+PHP.
+            Berikut informasi fitur Website :</p>
+        <ul class="info-web">
+            <li>Website ini dibuat khusus untuk pembelajaran dengan Vina
+                Velina</li>
+            <li>Website ini akan berfokus pada Manajemen Peminjaman
+                Toko, mulai dari Data Barang, Data Pegawai, dan Data
+                Penjualan</li>
+            <li>Pada tahap satu akan berfokus pada Sistem Manajemen
+                Pegawai</li>
+            <li>Tahap berikutnya adalah pada Sistem Manajemen Barang</li>
+            <li>Tahap terakhir adalah Sistem Manajemen Penjualan</li>
+        </ul>
 
-            <a href="pegawai.php" class=button>Data Pegawai</a>
-
-        </div>
+        <a href="pegawai.php" class=button>Data Pegawai</a>
     </main>
 </body>
 
